@@ -4,7 +4,8 @@
   "shell": {
     "scripts": {
       "format": "uv run ruff format .",
-      "lint": "uv run ruff check ."
+      "lint": "uv run ruff check .",
+      "check": "devbox run format && devbox run lint"
     }
   },
 
