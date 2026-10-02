@@ -1,0 +1,10 @@
+[project]
+name = "epub-metadata"
+description = "A TUI for editing EPUB metadata"
+version = "0.0.0"
+authors = [{ name = "Hugo Marotta", email = "humtta@proton.me" }]
+
+license = "MIT"
+readme = "README.md"
+
+requires-python = ">=3.14"
