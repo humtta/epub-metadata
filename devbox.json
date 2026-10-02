@@ -1,6 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.18.4/.schema/devbox.schema.json",
 
+  "shell": {
+    "scripts": {
+      "format": "uv run ruff format ."
+    }
+  },
+
   "packages": {
     "python": {
       "version": "3.14.7",
