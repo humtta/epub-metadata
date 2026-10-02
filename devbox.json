@@ -3,7 +3,8 @@
 
   "shell": {
     "scripts": {
-      "format": "uv run ruff format ."
+      "format": "uv run ruff format .",
+      "lint": "uv run ruff check ."
     }
   },
 
