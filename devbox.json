@@ -7,7 +7,9 @@
     "scripts": {
       "format": "uv run ruff format .",
       "lint": "uv run ruff check .",
-      "check": "devbox run format && devbox run lint"
+      "check": "devbox run format && devbox run lint",
+
+      "dev": "uv run epub-metadata ${@}"
     }
   },
 
