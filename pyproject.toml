@@ -20,6 +20,7 @@ epub-metadata = "epub_metadata:main"
 [dependency-groups]
 dev = [
     "ruff>=0.16.10",
+    "ty>=0.0.84",
 ]
 
 [build-system]
