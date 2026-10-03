@@ -6,7 +6,7 @@
 
     "scripts": {
       "format": "uv run ruff format .",
-      "lint": "uv run ruff check .",
+      "lint": "uv run ruff check --fix .",
       "type": "uv run ty check .",
       "check": "devbox run format && devbox run lint && devbox run type",
 
